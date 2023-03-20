@@ -1,5 +1,5 @@
 FROM node:16-alpine
-RUN apk add --no-cache libc6-compat git python3 py3-pip make g++
+RUN apk add --no-cache libc6-compat git python3 py3-pip make g++ curl
 WORKDIR /app
 COPY . .
 
