@@ -1,4 +1,4 @@
-name: Docker build and push to neondockerhub account
+name: build_and_pub_neon
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
 
 env:
   IMAGE_NAME: neondockerhubpushrm/neon-gnosis-ui
-  DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
-  DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+  DOCKER_USERNAME: ${{secrets.DHUBU}}
+  DOCKER_PASSWORD: ${{secrets.DHUBP}}
 
 jobs:
   build-and-push:
