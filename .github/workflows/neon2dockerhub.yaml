@@ -1,0 +1,33 @@
+name: Docker build and push to neondockerhub account
+
+on:
+  push:
+    branches: [main]
+
+env:
+  IMAGE_NAME: neondockerhubpushrm/neon-gnosis-ui
+  DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
+  DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build Docker image
+      run: docker build -t $IMAGE_NAME .
+
+    - name: Log in to DockerHub
+      uses: docker/login-action@v1
+      with:
+        username: $DOCKER_USERNAME
+        password: $DOCKER_PASSWORD
+
+    - name: Tag and push Docker image
+      run: |
+        docker tag $IMAGE_NAME $IMAGE_NAME:$GITHUB_SHA
+        docker push $IMAGE_NAME:$GITHUB_SHA
+        docker push $IMAGE_NAME:latest
