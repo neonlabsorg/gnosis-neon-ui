@@ -35,4 +35,4 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')
       run: bash scripts/github/deploy_docker.sh ${GITHUB_REF##*/}
       env:
-        DOCKERHUB_PROJECT: neon-gnosis
+        DOCKERHUB_PROJECT: nneonlabsorg/gnosis-neon-ui
