@@ -6,8 +6,8 @@ on:
 
 env:
   IMAGE_NAME: neonlabsorg/gnosis-neon-ui
-  DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
-  DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+  DOCKERHUB_USERNAME: ${{secrets.DHUBU}}
+  DOCKERHUB_PASSWORD: ${{secrets.DHUBP}}
 
 jobs:
   build-and-push:
@@ -23,8 +23,8 @@ jobs:
     - name: Log in to DockerHub
       uses: docker/login-action@v1
       with:
-        username: $DOCKER_USERNAME
-        password: $DOCKER_PASSWORD
+        username: $DOCKERHUB_USERNAME
+        password: $DOCKERHUB_PASSWORD
 
     - name: Tag and push Docker image
       run: |
