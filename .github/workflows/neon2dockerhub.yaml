@@ -5,9 +5,9 @@ on:
     branches: [main]
 
 env:
-  IMAGE_NAME: neondockerhubpushrm/neon-gnosis-ui
-  DOCKER_USERNAME: ${{secrets.DHUBU}}
-  DOCKER_PASSWORD: ${{secrets.DHUBP}}
+  IMAGE_NAME: neonlabsorg/gnosis-neon-ui
+  DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
+  DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
 
 jobs:
   build-and-push:
