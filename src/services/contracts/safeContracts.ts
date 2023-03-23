@@ -7,7 +7,7 @@ import {
   getSafeSingletonDeployment,
   getSignMessageLibDeployment,
   type SingletonDeployment,
-} from 'neon-safe-deployments'
+} from 'gnosis-neon-safe-deployments'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 import semverSatisfies from 'semver/functions/satisfies'
 import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'

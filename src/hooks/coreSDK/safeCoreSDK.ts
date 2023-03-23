@@ -1,5 +1,5 @@
 import chains from '@/config/chains'
-import { getSafeSingletonDeployment, getSafeL2SingletonDeployment } from 'neon-safe-deployments'
+import { getSafeSingletonDeployment, getSafeL2SingletonDeployment } from 'gnosis-neon-safe-deployments'
 import { getWeb3 } from '@/hooks/wallets/web3'
 import ExternalStore from '@/services/ExternalStore'
 import { Gnosis_safe__factory } from '@/types/contracts'

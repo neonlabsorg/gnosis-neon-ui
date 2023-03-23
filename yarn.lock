@@ -7806,6 +7806,18 @@ globrex@^0.1.2:
   resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
   integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
 
+gnosis-neon-safe-deployments@^1.22.1:
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-deployments/-/gnosis-neon-safe-deployments-1.22.1.tgz#6c9399089d83675b3e5c7a5ab99cc718bb13d548"
+  integrity sha512-gBCo7uyXhODcHUzHI8VzcQrhWc3QD4TOxsubmlnwniz2Q9fW97IJGzS3/duaa0aoB8j/ffIqrDyC6QyuxFJ3ig==
+  dependencies:
+    semver "^7.3.7"
+
+gnosis-neon-safe-modules-deployments@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-modules-deployments/-/gnosis-neon-safe-modules-deployments-1.1.1.tgz#6fb5a0151db1a275265a12ed0c53dd065f798600"
+  integrity sha512-KlMvDaZ4erpZol4h3i6H2H54M9ksKiZy2YT0DY07VagI4LPJHrpDuue3Y6LUA7EveZl+B69fLse9Nqt1jtO+LA==
+
 gopd@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.0.1.tgz#29ff76de69dac7489b7c0918a5788e56477c332c"
@@ -9950,18 +9962,6 @@ negotiator@0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
-
-neon-safe-deployments@^1.22.0:
-  version "1.22.0"
-  resolved "https://registry.yarnpkg.com/neon-safe-deployments/-/neon-safe-deployments-1.22.0.tgz#c2a84ba21462c281b8b19b539f78280f5e97e9d7"
-  integrity sha512-K/XUffnxv9SsBjlUcUHD5moKrYP3PeqA+37POmakq6FVMAO795I3KC+xhuiqvxLLxwY9sttZghn8h1QBLVu/TQ==
-  dependencies:
-    semver "^7.3.7"
-
-neon-safe-modules-deployments@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/neon-safe-modules-deployments/-/neon-safe-modules-deployments-1.1.1.tgz#b66ef005dd19782404c9ab544a60a0da1205b24d"
-  integrity sha512-HC/9aog5Kiywns3i7hMagsQv02ibsWXzstxcA9EuZgIJFFT9YoLiMyDgU0kjZJI5MAGLVXHGseLJxirWGwmLLA==
 
 next-pwa@^5.6.0:
   version "5.6.0"
