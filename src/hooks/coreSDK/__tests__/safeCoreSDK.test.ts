@@ -1,9 +1,9 @@
 import { ethers } from 'ethers'
-import Safe from '@safe-global/safe-core-sdk'
+import Safe from 'gnosis-neon-safe-core-sdk'
 import {
   getProxyFactoryContract,
   getSafeContract,
-} from '@safe-global/safe-core-sdk/dist/src/contracts/safeDeploymentContracts'
+} from 'gnosis-neon-safe-core-sdk/dist/src/contracts/safeDeploymentContracts'
 import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import type { EIP1193Provider } from '@web3-onboard/core'
 
@@ -16,7 +16,7 @@ jest.mock('@/services/contracts/safeContracts', () => {
   }
 })
 
-jest.mock('@safe-global/safe-core-sdk/dist/src/contracts/safeDeploymentContracts')
+jest.mock('gnosis-neon-safe-core-sdk/dist/src/contracts/safeDeploymentContracts')
 
 jest.mock('@/types/contracts', () => {
   return {
