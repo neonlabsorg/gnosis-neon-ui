@@ -2084,18 +2084,6 @@
   dependencies:
     tslib "^2.1.0"
 
-"@gnosis.pm/safe-deployments@^1.18.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@gnosis.pm/safe-deployments/-/safe-deployments-1.19.0.tgz#f4ba8cf92cd6fdff4241ac50e410b4a6ff89babe"
-  integrity sha512-EvHR/LjMwJm0QKXyTscRXqR9vnJwCUDiMnRNKRyXe1akW+udiYXjJTAiGuleFS4DOUSqs6DpAjYlLnXMzUsVMw==
-  dependencies:
-    semver "^7.3.7"
-
-"@gnosis.pm/safe-modules-deployments@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@gnosis.pm/safe-modules-deployments/-/safe-modules-deployments-1.0.0.tgz#b4cfcf7782c3fa1491b84405ac06cfa4f7eff365"
-  integrity sha512-mZkGtfGmEym7l5w2K6d/mIaS8sDmy50uGWAfTj5Q/+Y1cU9fHYU6hzhb0QaeyNM7F7HM3jg5ZTJjartZJUqu3w==
-
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
@@ -3169,13 +3157,6 @@
   dependencies:
     "@safe-global/safe-gateway-typescript-sdk" "^3.5.3"
     ethers "^5.7.2"
-
-"@safe-global/safe-deployments@^1.20.2":
-  version "1.20.2"
-  resolved "https://registry.yarnpkg.com/@safe-global/safe-deployments/-/safe-deployments-1.20.2.tgz#a005493c584909bba82bb7f06fef40a1e69d8fa8"
-  integrity sha512-4uPNpC5RUl2muGKfWUMMduG5+vKDHZOdPmFPmBkdyG+JL3jDzihgdZzdbKERQClg5xrwPhJY38hJezUFCGPR/w==
-  dependencies:
-    semver "^7.3.7"
 
 "@safe-global/safe-gateway-typescript-sdk@^3.5.3", "@safe-global/safe-gateway-typescript-sdk@^3.7.0":
   version "3.7.0"
