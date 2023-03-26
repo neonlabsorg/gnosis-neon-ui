@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main
-      - update
+      - dev
   release:
     types: [ released ]
 
