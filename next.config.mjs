@@ -76,7 +76,6 @@ const nextConfig = {
       'bn.js': path.resolve('./node_modules/bn.js/lib/bn.js'),
       'mainnet.json': path.resolve('./node_modules/@ethereumjs/common/dist.browser/genesisStates/mainnet.json'),
     }
-
     return config
   },
 }

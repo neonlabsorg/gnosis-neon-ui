@@ -8282,10 +8282,10 @@ gnosis-neon-safe-ethers-lib@^1.9.2:
     gnosis-neon-safe-core-sdk-utils "^1.7.2"
     hardhat "^2.13.0"
 
-gnosis-neon-safe-modules-deployments@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-modules-deployments/-/gnosis-neon-safe-modules-deployments-1.1.1.tgz#6fb5a0151db1a275265a12ed0c53dd065f798600"
-  integrity sha512-KlMvDaZ4erpZol4h3i6H2H54M9ksKiZy2YT0DY07VagI4LPJHrpDuue3Y6LUA7EveZl+B69fLse9Nqt1jtO+LA==
+gnosis-neon-safe-modules-deployments@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-modules-deployments/-/gnosis-neon-safe-modules-deployments-1.1.3.tgz#24c17e7097a6c25f825c1e117fd924294525e009"
+  integrity sha512-LC1SOw/duAS36h2O9Gd07co6gCIYjsCRvxGh9PzYVBfYlR87RHTwbjjyNcUW54RiCzNQOnRLDhtbFgyqcRqLlQ==
 
 gopd@^1.0.1:
   version "1.0.1"
