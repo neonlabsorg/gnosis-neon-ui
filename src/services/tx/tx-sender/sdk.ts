@@ -1,12 +1,12 @@
 import { getSafeSDK } from '@/hooks/coreSDK/safeCoreSDK'
-import type Safe from '@safe-global/safe-core-sdk'
-import EthersAdapter from '@safe-global/safe-ethers-lib'
+import type Safe from 'gnosis-neon-safe-core-sdk'
+import EthersAdapter from 'gnosis-neon-safe-ethers-lib'
 import { ethers } from 'ethers'
 import type { Web3Provider } from '@ethersproject/providers'
 import { isWalletRejection } from '@/utils/wallets'
-import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import type { SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
 import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
-import { SAFE_FEATURES } from '@safe-global/safe-core-sdk-utils'
+import { SAFE_FEATURES } from 'gnosis-neon-safe-core-sdk-utils'
 import { hasSafeFeature } from '@/utils/safe-versions'
 
 export const getAndValidateSafeSDK = (): Safe => {

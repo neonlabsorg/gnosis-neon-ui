@@ -10,9 +10,9 @@ import type { ConnectedWallet } from '@/hooks/wallets/useOnboard'
 import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { waitFor } from '@testing-library/react'
-import type Safe from '@safe-global/safe-core-sdk'
+import type Safe from 'gnosis-neon-safe-core-sdk'
 import { hexZeroPad } from 'ethers/lib/utils'
-import type CompatibilityFallbackHandlerEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
+import type CompatibilityFallbackHandlerEthersContract from 'gnosis-neon-safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
 
 const mockSafeInfo = {
   data: '0x',
