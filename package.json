@@ -45,7 +45,7 @@
     "gnosis-neon-safe-core-sdk": "^3.3.6",
     "gnosis-neon-safe-core-sdk-utils": "^1.7.5",
     "gnosis-neon-safe-ethers-lib": "^1.9.6",
-    "gnosis-neon-gateway-typescript-sdk": "^3.7.1",
+    "@neonlabs-devops/gnosis-neon-gateway-typescript-sdk": "^3.7.1",
     "@safe-global/safe-react-components": "^2.0.2",
     "@sentry/react": "^7.28.1",
     "@sentry/tracing": "^7.28.1",
