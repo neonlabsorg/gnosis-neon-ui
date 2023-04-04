@@ -2720,10 +2720,10 @@
     react-transition-group "^4.4.5"
     rifm "^0.12.1"
 
-"@neonlabs-devops/gnosis-neon-gateway-typescript-sdk@^3.7.1":
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/@neonlabs-devops/gnosis-neon-gateway-typescript-sdk/-/gnosis-neon-gateway-typescript-sdk-3.7.1.tgz#32bcfd34ecabf4d662ad038ddf8e85bdecaf2035"
-  integrity sha512-kK4mZTTrogCyTmWMBTcxxU8SsmRMHgF3qZKCyWC9DUi6j4gaXONTJPgZ7x7XaYAQlXqFeINQ8OSHTWfePc5iQg==
+"@neonlabs-devops/gnosis-neon-gateway-typescript-sdk@^3.7.2":
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/@neonlabs-devops/gnosis-neon-gateway-typescript-sdk/-/gnosis-neon-gateway-typescript-sdk-3.7.2.tgz#42322de3107e4691950172043fb29129a5deea00"
+  integrity sha512-x2fq1rgyf8Q9NJiRPqCNDxX8QbO049dxx3WdUo/UNHfZN0vflvsAIaSyfni2EpwTjx5eFPNnNSooB3G89Mh0bQ==
   dependencies:
     cross-fetch "^3.1.5"
 
