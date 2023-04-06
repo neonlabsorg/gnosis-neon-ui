@@ -7,7 +7,7 @@ import type {
   ChainInfo as WebCoreChainInfo,
   TransactionDetails,
 } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
-import type { Permission, PermissionRequest } from '@safe-global/safe-apps-sdk/dist/src/types/permissions'
+import type { Permission, PermissionRequest } from 'gnosis-neon-safe-apps-sdk/dist/src/types/permissions'
 import type {
   AddressBookItem,
   BaseTransaction,
@@ -24,10 +24,10 @@ import type {
   SignTypedMessageParams,
   ChainInfo,
   SafeBalances,
-} from '@safe-global/safe-apps-sdk'
-import { Methods } from '@safe-global/safe-apps-sdk'
-import { RPC_CALLS } from '@safe-global/safe-apps-sdk/dist/src/eth/constants'
-import type { SafeSettings } from '@safe-global/safe-apps-sdk'
+} from 'gnosis-neon-safe-apps-sdk'
+import { Methods } from 'gnosis-neon-safe-apps-sdk'
+import { RPC_CALLS } from 'gnosis-neon-safe-apps-sdk/dist/src/eth/constants'
+import type { SafeSettings } from 'gnosis-neon-safe-apps-sdk'
 import AppCommunicator from '@/services/safe-apps/AppCommunicator'
 import { Errors, logError } from '@/services/exceptions'
 import { createSafeAppsWeb3Provider } from '@/hooks/wallets/web3'

@@ -5,7 +5,7 @@ import { hashMessage, _TypedDataEncoder } from 'ethers/lib/utils'
 import { Box } from '@mui/system'
 import { Typography, SvgIcon } from '@mui/material'
 import WarningIcon from '@/public/images/notifications/warning.svg'
-import { isObjectEIP712TypedData, Methods } from '@safe-global/safe-apps-sdk'
+import { isObjectEIP712TypedData, Methods } from 'gnosis-neon-safe-apps-sdk'
 import type { SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
 import { OperationType } from 'gnosis-neon-safe-core-sdk-types'
 

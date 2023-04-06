@@ -1,7 +1,7 @@
 import { proposeSafeMessage, confirmSafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { SafeInfo, SafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
-import type { RequestId } from '@safe-global/safe-apps-sdk'
-import { isObjectEIP712TypedData } from '@safe-global/safe-apps-sdk'
+import type { RequestId } from 'gnosis-neon-safe-apps-sdk'
+import { isObjectEIP712TypedData } from 'gnosis-neon-safe-apps-sdk'
 import type { TypedDataDomain } from 'ethers'
 import type { JsonRpcSigner } from '@ethersproject/providers'
 

@@ -41,7 +41,7 @@
     "@mui/material": "^5.11.10",
     "@mui/x-date-pickers": "^5.0.12",
     "@reduxjs/toolkit": "^1.8.2",
-    "@safe-global/safe-apps-sdk": "^7.10.1",
+    "gnosis-neon-safe-apps-sdk": "^7.10.2",
     "gnosis-neon-safe-core-sdk": "^3.3.6",
     "gnosis-neon-safe-core-sdk-utils": "^1.7.5",
     "gnosis-neon-safe-ethers-lib": "^1.9.6",
