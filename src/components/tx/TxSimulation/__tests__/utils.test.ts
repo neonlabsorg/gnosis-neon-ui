@@ -1,5 +1,5 @@
 import type { MetaTransactionData, SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
-import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { BigNumber, ethers } from 'ethers'
 import { getSimulationPayload, NONCE_STORAGE_POSITION, THRESHOLD_STORAGE_POSITION } from '../utils'
 import * as safeContracts from '@/services/contracts/safeContracts'

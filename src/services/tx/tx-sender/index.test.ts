@@ -1,7 +1,7 @@
 import { setSafeSDK } from '@/hooks/coreSDK/safeCoreSDK'
 import type Safe from 'gnosis-neon-safe-core-sdk'
 import { type TransactionResult } from 'gnosis-neon-safe-core-sdk-types'
-import { getTransactionDetails, postSafeGasEstimation } from '@safe-global/safe-gateway-typescript-sdk'
+import { getTransactionDetails, postSafeGasEstimation } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import extractTxInfo from '../extractTxInfo'
 import proposeTx from '../proposeTransaction'
 import * as txEvents from '../txEvents'
@@ -18,7 +18,7 @@ import { waitFor } from '@/tests/test-utils'
 import { Web3Provider } from '@ethersproject/providers'
 
 // Mock getTransactionDetails
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
   getTransactionDetails: jest.fn(),
   postSafeGasEstimation: jest.fn(() => Promise.resolve({ safeTxGas: 60000, recommendedNonce: 17 })),
   Operation: {

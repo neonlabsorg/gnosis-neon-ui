@@ -1,5 +1,5 @@
 import type { Web3Provider, JsonRpcProvider } from '@ethersproject/providers'
-import { getSafeInfo, type SafeInfo, type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import { getSafeInfo, type SafeInfo, type ChainInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import {
   getFallbackHandlerContractInstance,
   getGnosisSafeContractInstance,

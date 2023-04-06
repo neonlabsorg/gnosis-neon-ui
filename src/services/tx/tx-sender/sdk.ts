@@ -5,7 +5,7 @@ import { ethers } from 'ethers'
 import type { Web3Provider } from '@ethersproject/providers'
 import { isWalletRejection } from '@/utils/wallets'
 import type { SafeTransaction } from 'gnosis-neon-safe-core-sdk-types'
-import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { SAFE_FEATURES } from 'gnosis-neon-safe-core-sdk-utils'
 import { hasSafeFeature } from '@/utils/safe-versions'
 

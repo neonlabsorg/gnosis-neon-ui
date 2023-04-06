@@ -10,8 +10,8 @@ import useTxSender from '@/hooks/useTxSender'
 import { type NftTransferParams } from '.'
 import useSafeAddress from '@/hooks/useSafeAddress'
 import Multisend from '@/components/transactions/TxDetails/TxData/DecodedData/Multisend'
-import type { DecodedDataResponse } from '@safe-global/safe-gateway-typescript-sdk'
-import { getDecodedData, Operation } from '@safe-global/safe-gateway-typescript-sdk'
+import type { DecodedDataResponse } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { getDecodedData, Operation } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import useChainId from '@/hooks/useChainId'
 
 type ReviewNftBatchProps = {

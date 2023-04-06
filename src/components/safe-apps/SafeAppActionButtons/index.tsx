@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import { resolveHref } from 'next/dist/shared/lib/router/router'
 import type { UrlObject } from 'url'
-import type { ChainInfo, SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo, SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { NextRouter } from 'next/router'
 import Box from '@mui/material/Box'
 import IconButton from '@mui/material/IconButton'

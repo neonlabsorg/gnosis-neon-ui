@@ -1,4 +1,4 @@
-import type { SafeInfo, TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo, TransactionDetails } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { SafeTransaction, TransactionOptions, TransactionResult } from 'gnosis-neon-safe-core-sdk-types'
 import type { Web3Provider } from '@ethersproject/providers'
 import type { EthersError } from '@/utils/ethers-utils'

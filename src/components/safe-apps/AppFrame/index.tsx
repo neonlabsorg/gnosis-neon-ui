@@ -5,7 +5,7 @@ import { useCallback, useEffect } from 'react'
 import { CircularProgress, Typography } from '@mui/material'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import { getBalances, getTransactionDetails, getSafeMessage } from '@safe-global/safe-gateway-typescript-sdk'
+import { getBalances, getTransactionDetails, getSafeMessage } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { AddressBookItem, EIP712TypedData, RequestId, SafeSettings } from '@safe-global/safe-apps-sdk'
 import { Methods } from '@safe-global/safe-apps-sdk'
 

@@ -4,7 +4,7 @@ import {
   getSafeL2SingletonDeployment,
   getSafeSingletonDeployment,
 } from 'gnosis-neon-safe-deployments'
-import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo, SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { ethers } from 'ethers'
 import { createUpdateSafeTxs } from '../safeUpdateParams'
 import { LATEST_SAFE_VERSION } from '@/config/constants'

@@ -1,4 +1,4 @@
-import * as gateway from '@safe-global/safe-gateway-typescript-sdk'
+import * as gateway from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { Web3Provider } from '@ethersproject/providers'
 import type { JsonRpcSigner } from '@ethersproject/providers'
 
@@ -7,8 +7,8 @@ import * as utils from '@/utils/safe-messages'
 import * as events from '@/services/safe-messages/safeMsgEvents'
 import { hexZeroPad } from 'ethers/lib/utils'
 
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
-  ...jest.requireActual('@safe-global/safe-gateway-typescript-sdk'),
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
+  ...jest.requireActual('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'),
   proposeSafeMessage: jest.fn(),
   confirmSafeMessage: jest.fn(),
 }))

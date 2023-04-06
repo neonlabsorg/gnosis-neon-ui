@@ -4,7 +4,7 @@ import {
   getProxyFactoryContract,
   getSafeContract,
 } from 'gnosis-neon-safe-core-sdk/dist/src/contracts/safeDeploymentContracts'
-import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { EIP1193Provider } from '@web3-onboard/core'
 
 import { isValidSafeVersion, initSafeSDK } from '../safeCoreSDK'

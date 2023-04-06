@@ -6,7 +6,7 @@ import type {
   SafeAppData,
   ChainInfo as WebCoreChainInfo,
   TransactionDetails,
-} from '@safe-global/safe-gateway-typescript-sdk'
+} from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { Permission, PermissionRequest } from '@safe-global/safe-apps-sdk/dist/src/types/permissions'
 import type {
   AddressBookItem,

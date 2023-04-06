@@ -1,7 +1,7 @@
 import type { MetaTransactionData } from 'gnosis-neon-safe-core-sdk-types'
 import { OperationType } from 'gnosis-neon-safe-core-sdk-types'
 import type GnosisSafeContractEthers from 'gnosis-neon-safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
-import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
+import type { ChainInfo, SafeInfo } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { getFallbackHandlerContractInstance, getGnosisSafeContractInstance } from '@/services/contracts/safeContracts'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 import { assertValidSafeVersion } from '@/hooks/coreSDK/safeCoreSDK'

@@ -1,7 +1,7 @@
 import { isHexString, toUtf8String } from 'ethers/lib/utils'
-import { SafeAppAccessPolicyTypes } from '@safe-global/safe-gateway-typescript-sdk'
-import { SafeAppFeatures } from '@safe-global/safe-gateway-typescript-sdk'
-import type { SafeAppData } from '@safe-global/safe-gateway-typescript-sdk'
+import { SafeAppAccessPolicyTypes } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import { SafeAppFeatures } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
+import type { SafeAppData } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import type { BaseTransaction, ChainInfo } from '@safe-global/safe-apps-sdk'
 
 import { formatVisualAmount } from '@/utils/formatters'

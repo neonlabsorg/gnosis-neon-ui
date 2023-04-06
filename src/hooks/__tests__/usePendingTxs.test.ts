@@ -1,11 +1,11 @@
 import { type PendingTx } from '@/store/pendingTxsSlice'
 import { act, renderHook } from '@/tests/test-utils'
-import type { Label, Transaction } from '@safe-global/safe-gateway-typescript-sdk'
+import type { Label, Transaction } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { useHasPendingTxs, usePendingTxsQueue } from '../usePendingTxs'
 
 // Mock getTransactionQueue
-jest.mock('@safe-global/safe-gateway-typescript-sdk', () => ({
-  ...jest.requireActual('@safe-global/safe-gateway-typescript-sdk'),
+jest.mock('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk', () => ({
+  ...jest.requireActual('@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'),
   getTransactionQueue: () =>
     Promise.resolve({
       next: null,

@@ -26,7 +26,7 @@ import { useHasPendingTxs } from '@/hooks/usePendingTxs'
 import CheckWallet from '@/components/common/CheckWallet'
 import ExternalLink from '@/components/common/ExternalLink'
 import { getExplorerLink } from '@/utils/gateway'
-import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
+import { ImplementationVersionState } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 type SignOrExecuteProps = {
   safeTx?: SafeTransaction

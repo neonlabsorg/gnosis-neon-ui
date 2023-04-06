@@ -11,7 +11,7 @@ import {
 import { BigNumber } from '@ethersproject/bignumber'
 import * as web3 from '../wallets/web3'
 import { keccak256, toUtf8Bytes } from 'ethers/lib/utils'
-import { TokenType } from '@safe-global/safe-gateway-typescript-sdk'
+import { TokenType } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 
 const mockProvider = new JsonRpcProvider()
 const mockModule = {

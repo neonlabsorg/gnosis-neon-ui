@@ -1,5 +1,5 @@
 import useAsync from '@/hooks/useAsync'
-import type { TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
+import type { TransactionDetails } from '@neonlabs-devops/gnosis-neon-gateway-typescript-sdk'
 import { getMultiSendCallOnlyContractInstance } from '@/services/contracts/safeContracts'
 import { useCurrentChain } from '@/hooks/useChains'
 import useSafeInfo from '@/hooks/useSafeInfo'
