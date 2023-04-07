@@ -7737,10 +7737,10 @@ globrex@^0.1.2:
   resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
   integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
 
-gnosis-neon-safe-apps-sdk@^7.10.4:
-  version "7.10.4"
-  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-apps-sdk/-/gnosis-neon-safe-apps-sdk-7.10.4.tgz#3974aa6d111fd54aa979dcec26282db340c752c2"
-  integrity sha512-UsVlFMPJ5B75q6CDC4XbBYqgt2FWDh8JJrJZE06mTapHsFk9bMTnF45z/RzaKESp1RidKC+JSuSBhBaAavFwCQ==
+gnosis-neon-safe-apps-sdk@^7.10.5:
+  version "7.10.5"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-apps-sdk/-/gnosis-neon-safe-apps-sdk-7.10.5.tgz#3fcaadfae3e44796034d015e9148287f40e9c89d"
+  integrity sha512-SJfQF0daaVqwRC3FkxkKmhigFLxluBGsbI+NkYgeca9Wkn14b5yK87V+5NyjwaWtvWDPc+EEFb+rVkod2LqZ9w==
   dependencies:
     "@neonlabs-devops/gnosis-neon-gateway-typescript-sdk" "^3.7.4"
     ethers "^5.7.2"
